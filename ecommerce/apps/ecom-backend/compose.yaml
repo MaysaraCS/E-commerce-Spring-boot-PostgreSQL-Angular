@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  database:
+    image: 'postgres:latest'
+    container_name: postgres_container_3
+    ports:
+      - '5434:5432'   # ✅ correct (local 5434 -> container 5432)
+    environment:
+      - 'POSTGRES_USER=maysara'
+      - 'POSTGRES_DB=maysara'
+      - 'POSTGRES_PASSWORD=maysara'
+    volumes:
+      - postgres:/data/postgres
+    restart: unless-stopped

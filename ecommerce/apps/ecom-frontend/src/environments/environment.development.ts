@@ -8,5 +8,5 @@ export const environment = {
   },
   apiUrl: 'http://localhost:8080/api',
   stripePublishableKey:
-    'pk_test_51PqP6gFxB2dnnKdDhiB1cqZyvA0X1Si7ggeltnoO0OxXVRVMr35Lk8Z1UpsgbzjyawMNIpGlaB91S72uhbGvPpyJ00H5Zy8La7',
+    'pk_test_51P9yW1GOPvn0rH0uIdmlzsT7d1quekUMCYs6qquL9FWzEwmpGCD8VGMevJwAMwUxMQQoaf2nT2MKTAD19dhzeD6q00vYILDWKC',
 };
